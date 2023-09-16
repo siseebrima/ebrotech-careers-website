@@ -1,0 +1,16 @@
+<div class="container border-bottom">
+    <div class="row mt-4">
+       <div class="col-9">
+            <h4 style="color: rgb(83, 83, 165);">{{job.title}}</h3>
+            <p> <b>Location</b>: {{job.location}}</p>
+            {% if job.salary %}
+                <p> <b>Salary</b>: {{job.salary}}</p>
+            {% endif %}
+       </div>
+        <div class="col">
+              <button type="button" class="btn btn-outline-primary">Apply</button>
+        </div>
+    </div>
+    
+
+</div>
